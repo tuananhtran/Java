@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Tommy-PC" name="studentadmin.MainTest" tests="1" time="0.053" timestamp="2011-04-08T15:27:07">
+  <properties>
+    <property name="libs.jsp-compiler.javadoc" value="" />
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="javac.test.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar:C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client.jar:../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar" />
+    <property name="libs.jsf20.maven-pom" value="" />
+    <property name="libs.DataBindingME.src" value="" />
+    <property name="libs.j2me_ant_ext.javadoc" value="" />
+    <property name="source.root" value="src" />
+    <property name="libs.proguard.javadoc" value="" />
+    <property name="libs.junit.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\junit-3.8.2-api.zip" />
+    <property name="javac.includes" value="studentadmin/MainTest.java" />
+    <property name="libs.nsicom-ant-utils.src" value="" />
+    <property name="libs.nokiaS80-ant-utils.javadoc" value="" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\NetBeans 6.9.1\java\ant\lib\ant.jar" />
+    <property name="libs.swing-app-framework.src" value="" />
+    <property name="libs.jakarta_slide_ant_webdav.javadoc" value="" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="libs.toplink.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\toplink\toplink-essentials.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\toplink\toplink-essentials-agent.jar" />
+    <property name="libs.jsp-compilation.javadoc" value="" />
+    <property name="user.dir" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client" />
+    <property name="libs.hibernate-persistence.javadoc" value="" />
+    <property name="libs.JMUnit4CLDC10.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\jmunit-1.2.1-api.zip" />
+    <property name="java.vm.version" value="19.1-b02" />
+    <property name="libs.DataBindingME.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_databindingme.jar" />
+    <property name="libs.jstl11.maven-pom" value="" />
+    <property name="libs.Java-EE-GlassFish-v3.wsimport" value="" />
+    <property name="libs.nsicom-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\ant\nblib\org-netbeans-modules-j2me-cdc-project-nsicom.jar" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\mysql-connector-java-5.1.6-bin.jar" />
+    <property name="libs.jstl11.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.EclipseLink-GlassFish-v3.classpath" value="C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.antlr.jar;C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.asm.jar;C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.core.jar;C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.jpa.jar;C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.jpa.modelgen.jar;C:\glassfish-3.0.1\glassfish\modules\org.eclipse.persistence.oracle.jar;C:\glassfish-3.0.1\glassfish\modules\javax.persistence.jar" />
+    <property name="ant.file.type.StudentAdmin-app-client-impl" value="file" />
+    <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="libs.DataBindingME-PIM.maven-pom" value="" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
+    <property name="libs.hibernate-support.javadoc" value="" />
+    <property name="file.reference.gf-client.jar" value="C:\glassfish-3.0.1\glassfish\modules\gf-client.jar" />
+    <property name="libs.NetBeans MIDP Components.maven-pom" value="" />
+    <property name="jdk.home" value="C:\Program Files (x86)\Java\jdk1.6.0_24" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="libs.semc-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project-semc.jar" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="libs.nokiadeployment.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\org-netbeans-modules-mobility-deployment-nokia.jar" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="libs.nokiaS80-ant-utils.maven-pom" value="" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.nb_svg_midp_components.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\nb_svg_midp_components-src.zip" />
+    <property name="j2ee.server.instance" value="[C:\glassfish-3.0.1\glassfish]deployer:gfv3ee6:localhost:17335" />
+    <property name="libs.NetBeans MIDP Components WMA.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\netbeans_midp_components_wma-src.zip" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="platforms.CDC_Java_TM__Platform_Micro_Edition_SDK_3.0.type" value="cdc-hi" />
+    <property name="j2ee.appclient.tool.mainclass" value="org.glassfish.appclient.client.AppClientFacade" />
+    <property name="platforms.Java_TM__Platform_Micro_Edition_SDK_3_0.preverifycommandline" value="" />
+    <property name="libs.DataBindingME-SVG.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_databindingme_svg-api.zip" />
+    <property name="libs.restapi.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jsr311-api-1.1.1-javadoc.zip" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.ojec-ant-utils.src" value="" />
+    <property name="libs.spring-webmvc3.0.src" value="" />
+    <property name="libs.restapi.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jsr311-api-1.1.1.jar" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="libs.nsicom-ant-utils.javadoc" value="" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="x86" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="Tommy" />
+    <property name="libs.jsf12.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="run.jvmargs.param" value="" />
+    <property name="libs.Comet-GlassFish-v3.javadoc" value="" />
+    <property name="libs.spring-webmvc3.0.maven-pom" value="" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="build.classes.dir" value="build/jar" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="libs.Java-EE-GlassFish-v3.wsjwsdp" value="" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\jaxws-api-doc.zip" />
+    <property name="includes" value="**" />
+    <property name="j2ee.platform.wsimport.classpath" value="C:\glassfish-3.0.1\glassfish\modules\webservices-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\webservices-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\jaxb-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\jaxb-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\javax.ejb.jar" />
+    <property name="libs.ojec-ant-utils.maven-pom" value="" />
+    <property name="user.country" value="US" />
+    <property name="manifest.file" value="src/conf/MANIFEST.MF" />
+    <property name="libs.jstl11.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.JMUnit4CLDC11.src" value="" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="meta.inf" value="src/conf" />
+    <property name="netbeans.home" value="C:\Program Files (x86)\NetBeans 6.9.1\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.javaee-web-api-6.0.src" value="" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="libs.Java-EE-GlassFish-v3.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.nokiaS80-ant-utils.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.javadoc" value="" />
+    <property name="libs.j2me_ant_ext.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\org-netbeans-modules-mobility-antext.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\org-netbeans-modules-classfile.jar" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\endorsed" />
+    <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
+    <property name="libs.groovy-all.src" value="" />
+    <property name="test.includes" value="studentadmin/MainTest.java" />
+    <property name="netbeans.dynamic.classpath" value="C:\Users\Tommy\.netbeans\6.9\core\core.jar;C:\Users\Tommy\.netbeans\6.9\core\locale\core_ja.jar;C:\Users\Tommy\.netbeans\6.9\core\locale\core_pt_BR.jar;C:\Users\Tommy\.netbeans\6.9\core\locale\core_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\core\org-openide-filesystems.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\core_nb.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\core_nb_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files (x86)\NetBeans 6.9.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="libs.cdc-agui-swing-layout.maven-pom" value="" />
+    <property name="libs.cdc-pp-awt-layout.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\cdc-pp-awt-layout-src.zip" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="libs.jakarta_slide_ant_webdav.src" value="" />
+    <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\javaee-api-6.0.jar" />
+    <property name="libs.sjmc-ant-utils.maven-pom" value="" />
+    <property name="libs.groovy-all.maven-pom" value="" />
+    <property name="libs.JMUnit4CLDC10.maven-pom" value="" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\asm.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\jta.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\javassist.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="libs.swing-app-framework.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\appframework-1.0.3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\swing-worker-1.1.jar" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="libs.jakarta_slide_ant_webdav.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\commons-httpclient-3.0.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jdom-1.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\jakarta-slide-webdavlib-2.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\jakarta-slide-ant-webdav-2.1.jar" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.JMUnit4CLDC10.src" value="" />
+    <property name="libs.javaee-api-6.0.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.IdentityAntTasks.src" value="" />
+    <property name="libs.restlib_gfv3ee6.classpath" value="C:\glassfish-3.0.1\glassfish\modules\asm-all-repackaged.jar;C:\glassfish-3.0.1\glassfish\modules\jackson-core-asl.jar;C:\glassfish-3.0.1\glassfish\modules\jersey-gf-bundle.jar;C:\glassfish-3.0.1\glassfish\modules\jersey-multipart.jar;C:\glassfish-3.0.1\glassfish\modules\jettison.jar;C:\glassfish-3.0.1\glassfish\modules\jsr311-api.jar" />
+    <property name="libs.ActiveSync.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\nbactivesync-5.0.jar" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="resource.dir" value="setup" />
+    <property name="javac.test.processorpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar:C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client.jar:../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar" />
+    <property name="netbeans.buildnumber" value="201011082200" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.Java-EE-GlassFish-v3.wscompile" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="libs.struts.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-beanutils-1.7.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-chain-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\standard-1.0.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-core-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-el-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-extras-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-faces-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-scripting-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-taglib-1.3.8.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\struts\struts-tiles-1.3.8.jar" />
+    <property name="application.args.param" value="" />
+    <property name="ant.home" value="C:\Program Files (x86)\NetBeans 6.9.1\java\ant" />
+    <property name="libs.junit_4.src" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\junit-4.5-src.jar" />
+    <property name="libs.ricoh-ant-utils.maven-pom" value="" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_24\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QT Lite\QTSystem;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Java\jdk1.6.0_24\bin;C:\cygwin\bin\" />
+    <property name="javadoc.author" value="false" />
+    <property name="libs.metro.maven-pom" value="" />
+    <property name="libs.IdentityAntTasks.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\identity\ant\nblib\org-netbeans-modules-identity-ant.jar;C:\Program Files (x86)\NetBeans 6.9.1\identity\modules\org-netbeans-modules-identity-profile-api.jar" />
+    <property name="libs.EclipseLink-GlassFish-v3.src" value="" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="basedir" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client" />
+    <property name="build.ear.classes.dir" value="build/jar" />
+    <property name="libs.ActiveSync.src" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="libs.NetBeans MIDP Components PDA.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\netbeans_midp_components_pda-src.zip" />
+    <property name="libs.jstl11.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\standard.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jstl.jar" />
+    <property name="path.separator" value=";" />
+    <property name="libs.javaee-web-api-6.0.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.semc-ant-utils.javadoc" value="" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\http.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\management-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\policy.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\woodstox.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\api\jsr250-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="libs.struts.src" value="" />
+    <property name="j2ee.appclient.mainclass.args" value="${j2ee.appclient.tool.args}" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="en" />
+    <property name="j2ee.platform.classpath" value="C:\glassfish-3.0.1\glassfish\modules\endorsed\webservices-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\javax.resource.jar:C:\glassfish-3.0.1\glassfish\modules\jstl-impl.jar:C:\glassfish-3.0.1\glassfish\modules\jsf-api.jar:C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jar:C:\glassfish-3.0.1\glassfish\modules\javax.security.jacc.jar:C:\glassfish-3.0.1\glassfish\modules\javax.enterprise.deploy.jar:C:\glassfish-3.0.1\glassfish\modules\weld-osgi-bundle.jar:C:\glassfish-3.0.1\glassfish\modules\javax.security.auth.message.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\jaxb-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\javax.ejb.jar:C:\glassfish-3.0.1\glassfish\modules\jsr311-api.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\javax.annotation.jar:C:\glassfish-3.0.1\glassfish\modules\javax.jms.jar:C:\glassfish-3.0.1\glassfish\modules\javax.management.j2ee.jar:C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jstl.jar:C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jar:C:\glassfish-3.0.1\glassfish\modules\javax.persistence.jar:C:\glassfish-3.0.1\glassfish\modules\javax.transaction.jar:C:\glassfish-3.0.1\glassfish\modules\mail.jar:C:\glassfish-3.0.1\glassfish\modules\jsf-impl.jar:C:\glassfish-3.0.1\glassfish\modules\bean-validator.jar" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\cglib-2.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring\spring-2.5.6.SEC01.jar" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar:C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client.jar:../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="useJavaUtilZip" value="true" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="libs.swing-app-framework.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\appframework-1.0.3-doc.zip" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
+    <property name="libs.proguard.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\external\proguard\proguard4.4.jar" />
+    <property name="libs.DataBindingME-SVG.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_databindingme_svg.jar" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Tommy-PC" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="50.0" />
+    <property name="libs.javaee-endorsed-api-6.0.src" value="" />
+    <property name="libs.cdc-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project.jar" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.NetBeans MIDP Components WMA.maven-pom" value="" />
+    <property name="libs.jsp-compilation.maven-pom" value="" />
+    <property name="user.properties.file" value="C:\Users\Tommy\.netbeans\6.9\build.properties" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="libs.ant-contrib.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\ant-contrib-1.0b3.jar" />
+    <property name="empty.dir" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\build\empty" />
+    <property name="version-output" value="java version &quot;1.6" />
+    <property name="javadoc.preview" value="true" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_24\jre" />
+    <property name="libs.ojec-ant-utils.javadoc" value="" />
+    <property name="libs.jsp-compilation.src" value="" />
+    <property name="libs.ricoh-ant-utils.src" value="" />
+    <property name="libs.spring-webmvc.src" value="" />
+    <property name="libs.ant-contrib.javadoc" value="" />
+    <property name="debug.test.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar:C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar:C:\glassfish-3.0.1\glassfish\modules\gf-client.jar:../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/test/classes" />
+    <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
+    <property name="libs.javaee-api-6.0.src" value="" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.savaje-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project-savaje.jar" />
+    <property name="libs.toplink.maven-pom" value="" />
+    <property name="libs.DataBindingME.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.restlib.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\asm-3.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jackson-core-asl-1.1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jersey-client-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jersey-core-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jersey-json-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jersey-server-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jersey-spring-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\jettison-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\oauth-client-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\rest\oauth-signature-1.1.5.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="libs.JMUnit4CLDC11.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\jmunit-1.2.1-api.zip" />
+    <property name="libs.nsicom-ant-utils.maven-pom" value="" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="j2ee.platform.wsgen.classpath" value="C:\glassfish-3.0.1\glassfish\modules\webservices-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\webservices-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\jaxb-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\endorsed\jaxb-api-osgi.jar:C:\glassfish-3.0.1\glassfish\modules\javax.ejb.jar" />
+    <property name="libs.savaje-ant-utils.src" value="" />
+    <property name="project.StudentAdmin-ejb" value="../StudentAdmin-ejb" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Tommy-PC" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\junit-4.5-api.zip" />
+    <property name="libs.spring-webmvc.javadoc" value="" />
+    <property name="libs.toplink.src" value="" />
+    <property name="libs.EclipseLink-GlassFish-v3.maven-pom" value="" />
+    <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
+    <property name="libs.cdc-pp-awt-layout.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\cdc-pp-awt-layout.jar" />
+    <property name="jar.name" value="StudentAdmin-app-client.jar" />
+    <property name="libs.cdc-agui-swing-layout.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\cdc-agui-swing-layout-src.zip" />
+    <property name="run.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar" />
+    <property name="libs.hibernate-support.src" value="" />
+    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.JMUnit4CLDC11.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\jmunit4cldc11-1.2.1.jar" />
+    <property name="libs.nb_svg_midp_components.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\nb_svg_midp_components.jar" />
+    <property name="libs.spring-webmvc3.0.javadoc" value="" />
+    <property name="annotation.processing.enabled.in.editor" value="true" />
+    <property name="libs.NetBeans MIDP Components PDA.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_midp_components_pda.jar" />
+    <property name="libs.semc-ant-utils.maven-pom" value="" />
+    <property name="libs.nokiadeployment.maven-pom" value="" />
+    <property name="libs.restapi.src" value="" />
+    <property name="libs.NetBeans MIDP Components.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_midp_components_basic-api.zip" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="jna.boot.library.path" value="C:\Users\Tommy\.netbeans\6.9\var\cache\jna" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="libs.jsp-compiler.classpath" value="C:\Users\Tommy\.netbeans\6.9\ant\extra\jspcompile.jar" />
+    <property name="javac.processorpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar" />
+    <property name="libs.spring-webmvc.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\spring\spring-webmvc-2.5.6.SEC01.jar" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="j2ee.appclient.tool.jvmoptions" value="-Djava.endorsed.dirs=&quot;C:\glassfish-3.0.1\glassfish\lib\endorsed&quot;;&quot;C:\glassfish-3.0.1\glassfish\modules\endorsed&quot; -javaagent:&quot;C:\glassfish-3.0.1\glassfish\modules\gf-client.jar&quot;=mode=acscript,arg=-configxml,arg=&quot;C:\glassfish-3.0.1\glassfish\domains\domain1\config\sun-acc.xml&quot;,client=jar=" />
+    <property name="libs.jsf12.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.startup.TopLogging$AWTHandler" />
+    <property name="has.custom.manifest" value="true" />
+    <property name="libs.restapi.maven-pom" value="" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_midp_components_pda-api.zip" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.DataBindingME-PIM.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_databindingme_pim-api.zip" />
+    <property name="libs.swing-layout.src" value="C:\Program Files (x86)\NetBeans 6.9.1\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="libs.Java-EE-GlassFish-v3.embedabbleejb" value="" />
+    <property name="libs.j2me_ant_ext.src" value="" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="netbeans.user" value="C:\Users\Tommy\.netbeans\6.9" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="libs.ricoh-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project-ricoh.jar;C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\RicohAntTasks-2.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\commons-httpclient-3.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\commons-codec-1.3.jar" />
+    <property name="java.io.tmpdir" value="C:\Users\Tommy\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\${endorsed.classpath}&apos;" />
+    <property name="j2ee.platform.wsit.classpath" value="" />
+    <property name="file.reference.gf-client-module.jar" value="C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar" />
+    <property name="j2ee.appclient.tool.runtime" value="" />
+    <property name="libs.jsp-compiler.src" value="" />
+    <property name="deploy.ant.properties.file" value="C:\Users\Tommy\.netbeans\6.9\gfv3963874585.properties" />
+    <property name="j2ee.platform.wscompile.classpath" value="C:\glassfish-3.0.1\glassfish\modules\webservices-osgi.jar" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_24\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar:build/jar" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="libs.jsf20.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-2_0\jsf-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\jsf-2_0\jsf-impl.jar" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libs.DataBindingME-SVG.src" value="" />
+    <property name="dist.jar" value="dist/StudentAdmin-app-client.jar" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="StudentAdmin-app-client" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_FX_GFMOD_GROOVY_JAVA_JC_MOB_PHP_RUBY_TOMCAT_WEBEE0ae793028-c69c-4ca1-b22f-f3e87db41366_7f9ebf6e-b46e-4d58-ba0a-f929a59680f8" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="libs.j2me_ant_ext.maven-pom" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="wa.copy.client.jar.from" value="C:\glassfish-3.0.1\glassfish\domains\domain1\generated\xml" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.ActiveSync.javadoc" value="" />
+    <property name="j2ee.server.home" value="C:\glassfish-3.0.1\glassfish" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\asm.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\jta.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\javassist.jar" />
+    <property name="libs.DataBindingME-PIM.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_databindingme_pim.jar" />
+    <property name="user.home" value="C:\Users\Tommy" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.NetBeans MIDP Components.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_midp_components_basic.jar" />
+    <property name="libs.javaee-api-6.0.maven-pom" value="" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.swing-app-framework.maven-pom" value="" />
+    <property name="libs.jakarta_slide_ant_webdav.maven-pom" value="" />
+    <property name="no.dist.ear.dir" value="true" />
+    <property name="ant.file.StudentAdmin-app-client-impl" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\nbproject\build-impl.xml" />
+    <property name="libs.NetBeans MIDP Components WMA.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\netbeans_midp_components_wma.jar" />
+    <property name="libs.sjmc-ant-utils.src" value="" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.cdc-agui-swing-layout.javadoc" value="" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\javac-api-nb-7.0-b07.jar" />
+    <property name="libs.nokiaS80-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project-nokiaS80.jar" />
+    <property name="java.version" value="1.6.0_24" />
+    <property name="libs.NetBeans MIDP Components WMA.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_midp_components_wma-api.zip" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="libs.restlib_gfv3ee6.maven-pom" value="" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.ActiveSync.maven-pom" value="" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="platforms.Java_TM__Platform_Micro_Edition_SDK_3_0.home" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\Java_ME_platform_SDK_3.0" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.metro.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\metro-1.4-doc.zip" />
+    <property name="libs.struts.maven-pom" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="platforms.Java_TM__Platform_Micro_Edition_SDK_3_0.runcommandline" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="libs.IdentityAntTasks.maven-pom" value="" />
+    <property name="libs.Java-EE-GlassFish-v3.wsgenerate" value="" />
+    <property name="work.dir" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client" />
+    <property name="libs.cdc-ant-utils.src" value="" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\api\jsr173_api.jar" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="classes.dir" value="build/jar" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-webmvc-3.0.2.RELEASE.jar" />
+    <property name="libs.restlib.src" value="" />
+    <property name="javac.source" value="1.4" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="line.separator" value="
+" />
+    <property name="libs.hibernate-persistence.src" value="" />
+    <property name="libs.proguard.src" value="" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="libs.nb_svg_midp_components.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\nb_svg_midp_components-api.zip" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="libs.cdc-ant-utils.javadoc" value="" />
+    <property name="libs.ojec-ant-utils.classpath" value="C:\Users\Tommy\.netbeans\6.9\modules\ext\org-netbeans-modules-j2me-cdc-project-ojec.jar" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="sun.boot.class.path" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\${endorsed.classpath};C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;C:\Program Files (x86)\Java\jdk1.6.0_24\jre\classes" />
+    <property name="javac.target" value="1.4" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="platforms.Java_TM__Platform_Micro_Edition_SDK_3_0.debugcommandline" value="" />
+    <property name="src.dir" value="src/java" />
+    <property name="libs.IdentityAntTasks.javadoc" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jsf20.src" value="" />
+    <property name="libs.proguard.maven-pom" value="" />
+    <property name="libs.DataBindingME-SVG.maven-pom" value="" />
+    <property name="libs.jsf12.src" value="" />
+    <property name="libs.nokiadeployment.src" value="" />
+    <property name="reference.StudentAdmin-ejb.dist" value="../StudentAdmin-ejb/dist/StudentAdmin-ejb.jar" />
+    <property name="j2ee.platform" value="1.4" />
+    <property name="libs.savaje-ant-utils.javadoc" value="" />
+    <property name="libs.struts.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\struts-1.3.8-javadoc.zip" />
+    <property name="libs.cdc-ant-utils.maven-pom" value="" />
+    <property name="libs.Comet-GlassFish-v3.classpath" value="C:\glassfish-3.0.1\glassfish\modules\grizzly-comet.jar" />
+    <property name="libs.restlib_gfv3ee6.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jsr311-api-1.1.1-javadoc.zip" />
+    <property name="libs.cdc-agui-swing-layout.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\cdc-agui-swing-layout.jar" />
+    <property name="dist.dir" value="dist" />
+    <property name="libs.groovy-all.javadoc" value="" />
+    <property name="dist.ear.jar" value="dist/StudentAdmin-app-client.jar" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\groovy\modules\ext\groovy-all.jar" />
+    <property name="libs.sjmc-ant-utils.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\org-netbeans-modules-j2me-cdc-project-sjmc.jar" />
+    <property name="libs.JMUnit4CLDC10.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\ext\jmunit4cldc10-1.2.1.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.6" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="ant.file.StudentAdmin-app-client" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\build.xml" />
+    <property name="libs.ant-contrib.maven-pom" value="" />
+    <property name="libs.nokiadeployment.javadoc" value="" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.6.0_24-b07" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
+    <property name="libs.NetBeans MIDP Components.src" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\sources\netbeans_midp_components_basic-src.zip" />
+    <property name="libs.sjmc-ant-utils.javadoc" value="" />
+    <property name="default.javac.target" value="1.6" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\platform\modules\ext\junit-4.5.jar" />
+    <property name="libs.Java-EE-GlassFish-v3.src" value="" />
+    <property name="user.timezone" value="" />
+    <property name="platforms.CDC_Java_TM__Platform_Micro_Edition_SDK_3.0.home" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\Java_ME_platform_SDK_3.0" />
+    <property name="libs.ant-contrib.src" value="" />
+    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="netbeans.dirs" value="C:\Program Files (x86)\NetBeans 6.9.1\nb;C:\Program Files (x86)\NetBeans 6.9.1\ergonomics;C:\Program Files (x86)\NetBeans 6.9.1\ide;C:\Program Files (x86)\NetBeans 6.9.1\java;C:\Program Files (x86)\NetBeans 6.9.1\xml;C:\Program Files (x86)\NetBeans 6.9.1\apisupport;C:\Program Files (x86)\NetBeans 6.9.1\webcommon;C:\Program Files (x86)\NetBeans 6.9.1\websvccommon;C:\Program Files (x86)\NetBeans 6.9.1\enterprise;C:\Program Files (x86)\NetBeans 6.9.1\mobility;C:\Program Files (x86)\NetBeans 6.9.1\profiler;C:\Program Files (x86)\NetBeans 6.9.1\ruby;C:\Program Files (x86)\NetBeans 6.9.1\python;C:\Program Files (x86)\NetBeans 6.9.1\php;C:\Program Files (x86)\NetBeans 6.9.1\visualweb;C:\Program Files (x86)\NetBeans 6.9.1\soa;C:\Program Files (x86)\NetBeans 6.9.1\identity;C:\Program Files (x86)\NetBeans 6.9.1\uml;C:\Program Files (x86)\NetBeans 6.9.1\harness;C:\Program Files (x86)\NetBeans 6.9.1\cnd;C:\Program Files (x86)\NetBeans 6.9.1\dlight;C:\Program Files (x86)\NetBeans 6.9.1\groovy;C:\Program Files (x86)\NetBeans 6.9.1\extra;C:\Program Files (x86)\NetBeans 6.9.1\javafx;C:\Program Files (x86)\NetBeans 6.9.1\javacard" />
+    <property name="libs.jsf20.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.restlib_gfv3ee6.src" value="" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_24\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="libs.metro.src" value="" />
+    <property name="libs.semc-ant-utils.src" value="" />
+    <property name="libs.savaje-ant-utils.maven-pom" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.metro.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\metro\webservices-tools.jar" />
+    <property name="libs.restlib.maven-pom" value="" />
+    <property name="libs.DataBindingME.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\mobility\modules\docs\netbeans_databindingme-api.zip" />
+    <property name="java.class.path" value="C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-ejb\dist\StudentAdmin-ejb.jar;C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\build\jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\junit-3.8.2.jar;C:\glassfish-3.0.1\glassfish\modules\gf-client-module.jar;C:\glassfish-3.0.1\glassfish\modules\gf-client.jar;C:\Users\Tommy\Dropbox\COSC2465\StudentAdmin\StudentAdmin-app-client\build\test\classes;C:\glassfish-3.0.1\glassfish\modules\endorsed\webservices-api-osgi.jar;C:\glassfish-3.0.1\glassfish\modules\javax.resource.jar;C:\glassfish-3.0.1\glassfish\modules\jstl-impl.jar;C:\glassfish-3.0.1\glassfish\modules\jsf-api.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jar;C:\glassfish-3.0.1\glassfish\modules\javax.security.jacc.jar;C:\glassfish-3.0.1\glassfish\modules\javax.enterprise.deploy.jar;C:\glassfish-3.0.1\glassfish\modules\weld-osgi-bundle.jar;C:\glassfish-3.0.1\glassfish\modules\javax.security.auth.message.jar;C:\glassfish-3.0.1\glassfish\modules\endorsed\jaxb-api-osgi.jar;C:\glassfish-3.0.1\glassfish\modules\javax.ejb.jar;C:\glassfish-3.0.1\glassfish\modules\jsr311-api.jar;C:\glassfish-3.0.1\glassfish\modules\endorsed\javax.annotation.jar;C:\glassfish-3.0.1\glassfish\modules\javax.jms.jar;C:\glassfish-3.0.1\glassfish\modules\javax.management.j2ee.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jstl.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jar;C:\glassfish-3.0.1\glassfish\modules\javax.persistence.jar;C:\glassfish-3.0.1\glassfish\modules\javax.transaction.jar;C:\glassfish-3.0.1\glassfish\modules\mail.jar;C:\glassfish-3.0.1\glassfish\modules\jsf-impl.jar;C:\glassfish-3.0.1\glassfish\modules\bean-validator.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\ant\patches\72080.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.cdc-pp-awt-layout.maven-pom" value="" />
+    <property name="j2ee.server.type" value="gfv3ee6" />
+    <property name="os.version" value="6.1" />
+    <property name="libs.EclipseLink-GlassFish-v3.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="libs.JMUnit4CLDC11.maven-pom" value="" />
+    <property name="libs.toplink.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\javaee6-doc-api.zip" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.nb_svg_midp_components.maven-pom" value="" />
+    <property name="libs.ricoh-ant-utils.javadoc" value="" />
+    <property name="libs.Comet-GlassFish-v3.src" value="" />
+    <property name="libs.NetBeans MIDP Components PDA.maven-pom" value="" />
+    <property name="libs.restlib.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jersey-client-1.1.5.1-javadoc.zip;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jersey-core-1.1.5.1-javadoc.zip;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jersey-json-1.1.5.1-javadoc.zip;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\jersey-spring-1.1.5.1-javadoc.zip;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\oauth-client-1.1.5.1-javadoc.zip;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\docs\oauth-signature-1.1.5.1-javadoc.zip" />
+    <property name="j2ee.platform.embeddableejb.classpath" value="C:\glassfish-3.0.1\glassfish\lib\embedded\glassfish-embedded-static-shell.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\eclipselink\eclipselink-2.0.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\eclipselink\eclipselink-javax.persistence-2.0.jar" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files (x86)\NetBeans 6.9.1\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.Java-EE-GlassFish-v3.classpath" value="C:\glassfish-3.0.1\glassfish\modules\endorsed\webservices-api-osgi.jar;C:\glassfish-3.0.1\glassfish\modules\javax.resource.jar;C:\glassfish-3.0.1\glassfish\modules\jstl-impl.jar;C:\glassfish-3.0.1\glassfish\modules\jsf-api.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jar;C:\glassfish-3.0.1\glassfish\modules\javax.security.jacc.jar;C:\glassfish-3.0.1\glassfish\modules\javax.enterprise.deploy.jar;C:\glassfish-3.0.1\glassfish\modules\weld-osgi-bundle.jar;C:\glassfish-3.0.1\glassfish\modules\javax.security.auth.message.jar;C:\glassfish-3.0.1\glassfish\modules\endorsed\jaxb-api-osgi.jar;C:\glassfish-3.0.1\glassfish\modules\javax.ejb.jar;C:\glassfish-3.0.1\glassfish\modules\jsr311-api.jar;C:\glassfish-3.0.1\glassfish\modules\endorsed\javax.annotation.jar;C:\glassfish-3.0.1\glassfish\modules\javax.jms.jar;C:\glassfish-3.0.1\glassfish\modules\javax.management.j2ee.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jsp.jstl.jar;C:\glassfish-3.0.1\glassfish\modules\javax.servlet.jar;C:\glassfish-3.0.1\glassfish\modules\javax.persistence.jar;C:\glassfish-3.0.1\glassfish\modules\javax.transaction.jar;C:\glassfish-3.0.1\glassfish\modules\mail.jar;C:\glassfish-3.0.1\glassfish\modules\jsf-impl.jar;C:\glassfish-3.0.1\glassfish\modules\bean-validator.jar;C:\glassfish-3.0.1\glassfish\modules\web-core.jar" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="libs.CopyLibs.classpath" value="C:\Users\Tommy\.netbeans\6.9\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\cglib-2.2.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-aop-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-asm-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-aspects-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-beans-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-context-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-context-support-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-core-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-expression-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-instrument-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-jdbc-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-jms-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-orm-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-oxm-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-test-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-tx-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-web-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-webmvc-3.0.2.RELEASE.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\spring-3.0\spring-struts-3.0.2.RELEASE.jar" />
+    <property name="libs.jsp-compiler.maven-pom" value="" />
+    <property name="libs.Java-EE-GlassFish-v3.wsinterop" value="" />
+    <property name="libs.spring-webmvc.maven-pom" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.ejb3-persistence.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="ant.file.type.StudentAdmin-app-client" value="file" />
+    <property name="libs.spring-framework.javadoc" value="" />
+    <property name="platforms.Java_TM__Platform_Micro_Edition_SDK_3_0.type" value="UEI-1.0.1" />
+    <property name="libs.DataBindingME-PIM.src" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\postgresql-8.3-603.jdbc3.jar" />
+    <property name="libs.jsf12.maven-pom" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="studentadmin.Main" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="libs.jsp-compilation.classpath" value="C:\Program Files (x86)\NetBeans 6.9.1\java\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\servlet2.5-jsp2.1-api.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\glassfish-jspparser-2.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\enterprise\modules\ext\glassfish-logging-2.0.jar;C:\Program Files (x86)\NetBeans 6.9.1\ide\modules\ext\commons-logging-1.1.jar;C:\Program Files (x86)\NetBeans 6.9.1\java\ant\lib\ant-launcher.jar" />
+    <property name="j2ee.platform.is.jsr109" value="true" />
+    <property name="ant.version" value="Apache Ant version 1.8.1 compiled on April 30 2010" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="studentadmin.MainTest" name="testMain" time="0.0020" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="2.1" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+    <enterprise-beans>
+        <session>
+            <display-name>OrderPriceCalculatorSB</display-name>
+            <ejb-name>OrderPriceCalculator</ejb-name>
+            <local-home>vn.edu.rmit.s3269999.OrderPriceCalculatorLocalHome</local-home>
+            <local>vn.edu.rmit.s3269999.OrderPriceCalculatorLocal</local>
+            <ejb-class>vn.edu.rmit.s3269999.OrderPriceCalculator</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+        <session>
+            <display-name>ShoppingPriceCalculatorSB</display-name>
+            <ejb-name>ShoppingPriceCalculator</ejb-name>
+            <home>vn.edu.rmit.s3269999.ShoppingPriceCalculatorRemoteHome</home>
+            <remote>vn.edu.rmit.s3269999.ShoppingPriceCalculatorRemote</remote>
+            <ejb-class>vn.edu.rmit.s3269999.ShoppingPriceCalculator</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+            <ejb-local-ref>
+                <ejb-ref-name>ejb/OrderPriceCalculatorLocalHome</ejb-ref-name>
+                <ejb-ref-type>Session</ejb-ref-type>
+                <local-home>OrderPriceCalculatorLocalHome</local-home>
+                <local>OrderPriceCalculatorLocal</local>
+                <ejb-link>OrderPriceCalculator</ejb-link>
+            </ejb-local-ref>
+        </session>
+    </enterprise-beans>
+    <assembly-descriptor>
+        <container-transaction>
+            <method>
+                <ejb-name>OrderPriceCalculator</ejb-name>
+                <method-name>*</method-name>
+            </method>
+            <trans-attribute>Required</trans-attribute>
+        </container-transaction>
+        <container-transaction>
+            <method>
+                <ejb-name>ShoppingPriceCalculator</ejb-name>
+                <method-name>*</method-name>
+            </method>
+            <trans-attribute>Required</trans-attribute>
+        </container-transaction>
+    </assembly-descriptor>
+</ejb-jar>

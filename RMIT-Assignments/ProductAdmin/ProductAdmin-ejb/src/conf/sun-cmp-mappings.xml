@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sun-cmp-mappings>
+    <sun-cmp-mapping>
+        <schema>products</schema>
+        <entity-mapping>
+            <ejb-name>ProductCMP</ejb-name>
+            <table-name>LAB2_PRODUCTS</table-name>
+            <cmp-field-mapping>
+                <field-name>productID</field-name>
+                <column-name>LAB2_PRODUCTS.ID</column-name>
+            </cmp-field-mapping>
+            <cmp-field-mapping>
+                <field-name>productName</field-name>
+                <column-name>LAB2_PRODUCTS.PRODUCT_NAME</column-name>
+            </cmp-field-mapping>
+            <cmp-field-mapping>
+                <field-name>productPrice</field-name>
+                <column-name>LAB2_PRODUCTS.PRICE</column-name>
+            </cmp-field-mapping>
+        </entity-mapping>
+    </sun-cmp-mapping>
+</sun-cmp-mappings>
