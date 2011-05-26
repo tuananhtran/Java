@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sun-ejb-jar PUBLIC "-//Sun Microsystems, Inc.//DTD Application Server 8.1 EJB 2.1//EN" "http://www.sun.com/software/appserver/dtds/sun-ejb-jar_2_1-1.dtd">
+<sun-ejb-jar>
+    <enterprise-beans>
+        <ejb>
+            <ejb-name>BookStoreManager</ejb-name>
+            <jndi-name>ejb/BookStoreManager</jndi-name>
+        </ejb>
+        <ejb>
+            <ejb-name>User</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <ejb>
+            <ejb-name>Category</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <ejb>
+            <ejb-name>Book</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <ejb>
+            <ejb-name>Comment</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <ejb>
+            <ejb-name>Order</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <ejb>
+            <ejb-name>OrderLine</ejb-name>
+            <resource-ref>
+                <res-ref-name>jdbc/cosc2465</res-ref-name>
+                <jndi-name>jdbc/cosc2465</jndi-name>
+            </resource-ref>
+        </ejb>
+        <cmp-resource>
+            <jndi-name>jdbc/cosc2465</jndi-name>
+        </cmp-resource>
+    </enterprise-beans>
+</sun-ejb-jar>
