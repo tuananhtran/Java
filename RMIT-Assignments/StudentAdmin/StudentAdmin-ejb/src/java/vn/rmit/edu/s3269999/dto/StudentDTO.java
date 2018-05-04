@@ -22,13 +22,7 @@ public class StudentDTO implements java.io.Serializable {
     }
 
     public boolean equals(Object obj) {
-        if (obj instanceof StudentDTO) {
-            if (((StudentDTO) obj).getName().equals(name)) {
-                return true;
-            }
-        }
-
-        return false;
+        return (obj instanceof StudentDTO && ((StudentDTO) obj).getName().equals(name));
     }
 
     public int hashCode() {
